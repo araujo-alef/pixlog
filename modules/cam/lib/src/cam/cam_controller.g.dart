@@ -87,7 +87,7 @@ mixin _$CamController on _CamController, Store {
   final _$initCamAsyncAction = AsyncAction('_CamController.initCam');
 
   @override
-  Future<Null> initCam() {
+  Future<void> initCam() {
     return _$initCamAsyncAction.run(() => super.initCam());
   }
 

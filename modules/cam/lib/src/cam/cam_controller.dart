@@ -27,7 +27,7 @@ abstract class _CamController with Store {
   }
 
   @action
-  Future<Null> initCam() async {
+  Future<void> initCam() async {
     await Tflite.loadModel(
         model: "assets/pinus.tflite", labels: "assets/label.txt");
     try {

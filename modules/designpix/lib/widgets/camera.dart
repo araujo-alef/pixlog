@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:core/dependencies.dart';
 import 'dart:math' as math;
 
-typedef void Callback(List<dynamic>? list, int h, int w);
+typedef Callback = void Function(List<dynamic>? list, int h, int w);
 
 class Camera extends StatefulWidget {
   final List<CameraDescription>? cameras;
