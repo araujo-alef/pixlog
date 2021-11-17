@@ -1,7 +1,6 @@
-import 'package:flutter_modular/flutter_modular.dart';
-import 'package:flutter_realtime_detection/app/home/home_module.dart';
-
-import 'cam/cam_module.dart';
+import 'package:cam/cam.dart';
+import 'package:core/dependencies.dart';
+import 'package:home/home.dart';
 
 class AppModule extends Module {
   @override

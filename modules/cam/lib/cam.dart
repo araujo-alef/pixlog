@@ -1,0 +1,1 @@
+export 'package:cam/src/cam/cam_module.dart';
